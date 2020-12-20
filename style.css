@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: #eeeeee;
+  background-color: #fffffff;
 }
 
 .file-upload {
@@ -114,4 +114,28 @@ body {
 .remove-image:active {
   border: 0;
   transition: all .2s ease;
+}
+
+.nav-dinstance{
+	padding: 2.1% 7.7%
+}
+
+.navbar-light .navbar-brand{
+	front-family: NanumSquareR;
+	line-height: 1.68;
+	text-align: left;
+	color: #35465d;
+}
+
+.navbar-light .navbar-toggler{
+	border-color: #ffffff;
+}
+
+@media screen and (max-width: 600px){
+	html{
+		font-size: 10px;
+	}
+	.navbar-brand{
+		font-size: 2rem;
+	}
 }
